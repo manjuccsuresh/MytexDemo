@@ -1,0 +1,138 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{listings}
+\begin{document}
+
+\title {\textbf {Mathematical Operations}}
+\author{\textsc{Manju C C}}
+\date {}
+\maketitle 
+
+\chapter{Equations}
+\begin {multicols}{2}
+the equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraph
+
+\section{Inline Mode}
+Pythagorean Theorem: $ x+y=0 $ ,\(x-y=0\),$ x^{31} $ 
+meaning the next eqaution has no integer solution
+\section{displayed mode}
+\underline{Unnumbered}\\
+In physics the mass energy equibbalence is stated by  $$e=mc^2$$ discovered by Albert Einstein
+\underline{numbered}\\
+%in natural units the dispaly math is equivalent to $$
+\begin{displaymath}
+c=1
+\end{displaymath}
+energy eqyuation is :
+\begin{equation}
+e=mc^2
+\end{equation}
+\section{algorithm}
+% to write algorithm 
+\begin{algorithm}[H]
+
+\SetAlgoLined %to remove the brackets in while
+\caption{Algorithm caption}
+\KwResult{Result}
+initialization\\
+a=1,D=5 \;
+\While {a$>$D}{print a\;
+\eIf{C1}
+{ins if\;}
+{ins else\;}
+}
+
+\end{algorithm}
+
+
+\section {Aligning Equations}
+\begin{align}
+ x+3y &=2 \nonumber\\
+ 3y-4&=0 \\
+ 3+4y-2&=0
+\end{align}\\
+\begin{align*}
+ 2+33y &=2 \\
+ 3y-4&=0 \\
+ 3+4y-2&=0
+\end{align*}\\
+\section{Fractions}
+$$ f(x) = \frac{x+3}{4}$$
+\section {Subscript and superscript}
+$ a_1 $ \\
+$a_{12} =23$ \\
+\begin{equation}
+x=\frac{-b \pm \sqrt{b^2-4ac}}{2a} 
+\end{equation}
+\section{brackets and paranthesis}
+1.Curly brackets $$ \{ x+y \}  $$\\
+2.Angle brackets $$ \langle x+y \rangle $$\\
+3.pipes $$ |x+y| $$ \\
+4 Double puipes $$ \|  x+y \| $$ \\
+
+\section{special characters}
+\{
+\&
+\}
+the equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraph
+\section{spacing in Mathmode}
+\section{matrices}
+1. plain \\
+$$
+\begin{matrix}
+1 & 2 & 3 \\
+a & b & c 
+\end{matrix} $$
+\noindent 2. Round Brackets
+$$ 
+\begin{pmatrix}
+1 & 2 & 3 \\
+a & b & c 
+\end{pmatrix} $$
+3.square brackets
+$$ 
+\begin{bmatrix}
+1 & 2 & 3 \\
+a & b & c 
+\end{bmatrix} $$
+the equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraphthe equations in the defined paragaraph
+4,determinant
+$$ 
+\begin{vmatrix}
+1 & 2 & 3 \\
+a & b & c 
+\end{vmatrix} $$
+\section{Display Style}
+in line $ f(x)= \frac{1}{1+x} $  can be set with a  \(f(x)=\displaystyle\frac{1}{1+x} \)% $ can be replaced with \( \)
+\end{multicols}
+
+
+\section{drawing lines}
+\begin{tikzpicture}
+\draw (5,0) -- (-5,0);
+\end{tikzpicture}
+\vspace{2cm}
+\begin{tikzpicture}
+\draw (5,0) -- (-5,0)
+       (0,2)-- (0,-2);
+\end{tikzpicture}
+\vspace{2cm}
+
+\begin{tikzpicture}
+\draw (0,0) -- (4,0) -- (4,4) --(0,4);
+\end{tikzpicture}
+\vspace{3cm}
+
+\begin{tikzpicture}
+\draw (0,0) rectangle (4,4);
+\end{tikzpicture}
+\vspace{3cm}
+\begin{tikzpicture}
+\draw (0,0) parabola (4,4);
+\end{tikzpicture}
+\vspace{3cm}
+
+\end{document}
